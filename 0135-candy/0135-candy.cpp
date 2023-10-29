@@ -27,7 +27,7 @@ public:
         int ans = 0;
         for(auto it:candies)
         {
-            cout<<it<<",";
+            // cout<<it<<",";
             ans+=it;
         }
         return ans;
